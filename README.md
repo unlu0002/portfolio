@@ -29,3 +29,10 @@ Feel free to clone this repository and customize it for your own use. Don't forg
 
 ## Acknowledgments
 I would like to express my gratitude to the instructors and peers at MTM6201 for their guidance and support throughout this learning journey.
+
+## Credits
+- Hero header image: Photo by [Štefan Štefančík](https://unsplash.com/@cikstefan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/selective-focus-photography-of-person-about-to-touch-macbook-hianDixpuKw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- 
+
+
+
