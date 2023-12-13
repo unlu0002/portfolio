@@ -8,19 +8,20 @@
     --bs-primary: #24487C;
     --bs-secondary: #A05524;
     --bs-primary-rgb: 36, 72, 124;
-    --bs-secondary-rgb: 255, 230, 172;
+    --bs-secondary-rgb: 160, 85, 36;
     --bs-primary-text-emphasis: #0A1C29;
     --bs-secondary-text-emphasis: black;
+    --bs-dark: #000;
+    --bs-dark-rgb: 0, 0, 0;
     --bs-light: #ffffff;
     --bs-light-rgb: 255, 255, 255;
     --bs-link-color-rgb: 29, 29, 29;
-    --bs-primary-bg-subtle: #d99e14;
-    --bs-secondary-bg-subtle: #fbebc4;
-    --bs-primary-border-subtle: #d99e14;
-    --bs-secondary-border-subtle: #fbebc4;
+    --bs-primary-bg-subtle: #B9D8E0;
+    --bs-secondary-bg-subtle: #FAA625;
+    --bs-primary-border-subtle: #0A1C29;
+    --bs-secondary-border-subtle: #FAA625;
 }
     
-
 .btn-primary,
 .btn-outline-primary {
     --bs-btn-color: var(--bs-secondary);
@@ -37,68 +38,92 @@
     --bs-btn-bg: var(--bs-secondary);
 }
     
-
 /* Custom styles */
 .banner{
     background: white url(../images/heroheader.jpg) no-repeat center;
     background-size: cover;
-  }
+}
+
+.banner2{
+    background: white url(../images/projects.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#services {
+    
+    background: white url(../images/pattern.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Navbar Styles */
 .navbar {
     position: relative;
     padding: 0.5rem 1rem;
     margin-bottom: 20px;
-  }
+}
   
-  .navbar-brand {
+.navbar-brand {
     margin-right: 0px;
-  }
+}
 
-  .navbar-toggler {
+.navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
     color: var(--bs-primary);
-  }
+}
   
-  /* Offcanvas Styles */
-  .offcanvas-header {
+/* Offcanvas Styles */
+.offcanvas-header {
     padding-bottom: 0;
     border-bottom: 1px solid white;
-  }
+}
   
-  .offcanvas-title {
+.offcanvas-title {
     margin-bottom: 0;
     line-height: 1.5;
-  }
+}
   
-  .offcanvas-body {
+.offcanvas-body {
     padding: 10px;
-  }
+}
 
   
-  /* Navbar Dropdown Styles */
-  .navbar-nav .nav-link {
+/* Navbar Dropdown Styles */
+.navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     color: var(--bs-primary);
-  }
-  
-  .navbar-nav .nav-item.dropdown:hover .nav-link {
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
     color: var(--bs-secondary);
-  }
-  
-  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     color: var(--bs-secondary);
-  }
+}
+
   
-  
-  /* Navbar Responsive Styles */
+/* Navbar Responsive Styles */
 @media (max-width: 767px) {
 
-    
+    .banner {
+        background-image: none;
+        background-color: var(--bs-primary);
+    }
+
+    .banner2 {
+        background-image: none;
+        background-color: var(--bs-primary);
+    }
+
+    #services {
+        background-image: none;
+        background-color: var(--bs-primary-bg-subtle);
+    }
 
     .navbar-expand-md .navbar-toggler {
         display: block;
@@ -141,50 +166,23 @@
         display: none !important;
     }
 
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hero-1 {
-    background-color: var(--bs-primary);
-    
-}
 
 
 /* Mobile styles for screens less than 767px wide */
 @media (max-width: 767px) {
+
     .hero-1{
         
         background-color: var(--bs-primary); /* Change to your desired primary color */
         background-image: none; /* Remove background image on smaller screens */
         
     }
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Apply 'DM Sans' to the body */
 body {
@@ -205,8 +203,6 @@ body {
 .nav-link:hover {
     color: var(--bs-secondary);
 }
-
-
 
 /* Apply 'DM Serif Display' to the .logo class */
 .logo {
@@ -239,12 +235,10 @@ body {
     font-family: 'DM Sans', 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-
 /* Main Section Styles */
 section {
     padding: 4rem 0;
 }
-
 
 /* Card Styles */
 .card {
@@ -255,37 +249,7 @@ section {
 }
 
 
-/* Footer Styles */
-    .footer {
-    background-color: #f8f9fa;
-    border-top: 1px solid #dee2e6;
-}
 
-
-/* Copyright Styles */
-.copyright {
-    color: #6c757d;
-}
-
-
-/* Credits Styles */
-.credits {
-    color: #6c757d;
-    margin-top: 2rem;
-    font-size: 0.875rem;
-}
-
-
-
-/* Responsive Styles */
-@media (min-width: 576px) {
-    .navbar-nav {
-        margin-top: 0;
-    }
-}
-
-
-/* id="skip-links" */
 
 #skip-links {
 list-style: none;
@@ -305,4 +269,8 @@ html{
     scroll-behavior: smooth;
 }
 
-
+#footer {
+    background-color: #0A1C29;
+    background: none;
+    background-size: cover;
+}
