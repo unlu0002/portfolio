@@ -17,9 +17,9 @@
     --bs-light-rgb: 255, 255, 255;
     --bs-link-color-rgb: 29, 29, 29;
     --bs-primary-bg-subtle: #B9D8E0;
-    --bs-secondary-bg-subtle: #FAA625;
+    --bs-secondary-bg-subtle: #A05524;
     --bs-primary-border-subtle: #0A1C29;
-    --bs-secondary-border-subtle: #FAA625;
+    --bs-secondary-border-subtle: #A05524;
 }
     
 .btn-primary,
@@ -50,7 +50,6 @@
 }
 
 #services {
-    
     background: white url(../images/pattern.jpg) no-repeat center;
     background-size: cover;
     background-position: center;
